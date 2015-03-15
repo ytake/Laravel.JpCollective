@@ -1,7 +1,15 @@
-<?php namespace App\Events;
+<?php
+namespace App\Events;
 
-abstract class Event {
+/**
+ * Class Event
+ * @package App\Events
+ * @author yuuki.takezawa<yuuki.takezawa@comnect.jp.net>
+ * @license http://opensource.org/licenses/MIT MIT
+ */
+abstract class Event
+{
 
-	//
+    //
 
 }

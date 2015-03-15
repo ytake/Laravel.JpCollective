@@ -1,5 +1,5 @@
 {
-  "name": "tutorial-laravel5",
+  "name": "Laravel.JpCollective",
   "version": "0.0.1",
   "ignore": [
     "**/.*",
@@ -9,40 +9,24 @@
     "tests"
   ],
   "dependencies": {
-    "bootstrap": "*",
-    "bootstrap-material-design": "*",
     "react": "0.*",
     "highlightjs" : "*",
-    "showdown": "*"
+    "materialize": "*"
   },
   "exportsOverride": {
   },
   "overrides": {
-    "showdown": {
-      "main": [
-        "**/*.min.js"
-      ]
-    },
-    "bootstrap": {
-      "main": [
-        "**/*.min.css",
-        "**/*.min.js",
-        "**/glyphicons-*"
-      ]
-    },
-    "jquery": {
-      "main": "**/*.min.js"
-    },
-    "bootstrap-material-design": {
-      "main": [
-        "**/*.min.js",
-        "**/*.min.css",
-        "**/Material-*"
-      ]
-    },
     "react": {
       "main": [
         "**/*.min.js"
+      ]
+    },
+    "materialize": {
+      "main": [
+        "**/*.min.js",
+        "**/*.min.css",
+        "**/Material-*",
+        "**/Roboto-*"
       ]
     },
     "highlightjs": {
